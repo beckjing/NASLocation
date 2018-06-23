@@ -1,0 +1,6 @@
+framework module NASLocation {
+  umbrella header "NASLocation-umbrella.h"
+
+  export *
+  module * { export * }
+}

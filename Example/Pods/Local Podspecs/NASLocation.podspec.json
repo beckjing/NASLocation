@@ -1,0 +1,22 @@
+{
+  "name": "NASLocation",
+  "version": "0.1.0",
+  "summary": "A short description of NASLocation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/beckjing/NASLocation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "beckjing": "176547352@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/beckjing/NASLocation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NASLocation/Classes/**/*"
+}

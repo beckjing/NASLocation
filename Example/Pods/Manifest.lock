@@ -1,0 +1,16 @@
+PODS:
+  - NASLocation (0.1.0)
+
+DEPENDENCIES:
+  - NASLocation (from `../`)
+
+EXTERNAL SOURCES:
+  NASLocation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NASLocation: cab4d98b6bc086d7aaff29c0b721170b6e7de3ac
+
+PODFILE CHECKSUM: 4723c7c3524b61edf6941bad4dc1bb5944bea7f3
+
+COCOAPODS: 1.5.3

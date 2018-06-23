@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CBE661134FAC3549FA6C6231A66AB3 /* NASLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DD4A148B4C8FAB2B6EF98D2349E473 /* NASLocation-dummy.m */; };
+		1D92C513D2E9040C75C428DF7752D66A /* NASLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFC0A6026F5F99B645BA09133C6C1B2 /* NASLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFECC73863F0E9A1FDFB5647F93AC59 /* Pods-NASLocation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1B9864A0E778C1B0CBD5196B622B35 /* Pods-NASLocation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655EFDD57C8C9719052823EA033F216A /* Pods-NASLocation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E57451111D54DF5BB003EC4A67F81E5C /* Pods-NASLocation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75DF5CDA246AA695DD9A255757D5D9DD /* NASLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A64289A40140DB929FE72BD778CE1F9 /* NASLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B308E9E66C68AC4BD17A6074295FE34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		948F5F7DFBBD53B5C7D6FBC4956FF2C5 /* Pods-NASLocation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76338610C846C0B95FA7C4B7FCA3BA2C /* Pods-NASLocation_Tests-dummy.m */; };
+		97F1651C645D0D05391CFE6F61C0B05F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B34846C60482E416F1C0974EFEFDB0E2 /* Pods-NASLocation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A84700571E626E2FF347E30EEC878EE7 /* Pods-NASLocation_Example-dummy.m */; };
+		F371409FA9B29761F9E997EEBA05D18F /* NASLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE56FA3EF38CC5B6E31A417B555C367 /* NASLocationManager.m */; };
+		F5EBA8F3C4A8D4B346AA4C7BD875AA84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9ADA0CB7ABB01A29606469F6B045C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03830DF289CC4737C06DCA6087D1E76F;
+			remoteInfo = NASLocation;
+		};
+		5F9F7843C2FA43CC25188AE455C665EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7B4F203C72DA51DAEC2A4F5520303D;
+			remoteInfo = "Pods-NASLocation_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052928FBDF73F0E64B96A039BEE59979 /* Pods-NASLocation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASLocation_Tests-resources.sh"; sourceTree = "<group>"; };
+		0E0AE22A294F098D362C895D419FF56D /* Pods-NASLocation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASLocation_Example-resources.sh"; sourceTree = "<group>"; };
+		11613D6037A1E8D692EADB9525EA9C33 /* Pods-NASLocation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASLocation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		14166BDFB158883BA5E8F6A7232BC64D /* Pods-NASLocation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NASLocation_Example.modulemap"; sourceTree = "<group>"; };
+		2D29FEE1A61D89859D9F6E065BF60526 /* Pods-NASLocation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NASLocation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33B2AC7480FA393D0AE0CD00EA7F8F6B /* Pods-NASLocation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASLocation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35DD4A148B4C8FAB2B6EF98D2349E473 /* NASLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NASLocation-dummy.m"; sourceTree = "<group>"; };
+		4699B2331BF02264525464E43CC2E471 /* Pods-NASLocation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NASLocation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		56D80C5080C832D646CD03C14D03D753 /* Pods_NASLocation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NASLocation_Example.framework; path = "Pods-NASLocation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		584AE8393C50CE65FCDFF5812558B218 /* Pods_NASLocation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NASLocation_Tests.framework; path = "Pods-NASLocation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CE146EC881F25FB6AEBC7B1796C7FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		690708DD0DE95BAD14CFEFE6AF8C7F04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6FE56FA3EF38CC5B6E31A417B555C367 /* NASLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NASLocationManager.m; path = NASLocation/Classes/NASLocationManager.m; sourceTree = "<group>"; };
+		76338610C846C0B95FA7C4B7FCA3BA2C /* Pods-NASLocation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NASLocation_Tests-dummy.m"; sourceTree = "<group>"; };
+		7CCEE4D990D9C66928188BE05C22F654 /* Pods-NASLocation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NASLocation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8755641A28390DA5945F1764AA603F65 /* Pods-NASLocation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASLocation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A64289A40140DB929FE72BD778CE1F9 /* NASLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NASLocation-umbrella.h"; sourceTree = "<group>"; };
+		904CFD8F8318B0085EACEC9CEA158DD3 /* Pods-NASLocation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASLocation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A84700571E626E2FF347E30EEC878EE7 /* Pods-NASLocation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NASLocation_Example-dummy.m"; sourceTree = "<group>"; };
+		A9C431C7916EDC8AD235D675DB8AFA9C /* NASLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NASLocation.modulemap; sourceTree = "<group>"; };
+		AB1B9864A0E778C1B0CBD5196B622B35 /* Pods-NASLocation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NASLocation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B0C11F3F4BCE639666932033ECACD46C /* Pods-NASLocation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NASLocation_Tests.modulemap"; sourceTree = "<group>"; };
+		B0F4AC3CF0DEF4CE9BA67A7AF7EA2A98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22B05772993A1FC6A898F16A9032061 /* NASLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NASLocation.framework; path = NASLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4481AE218837DEAF6ECBC9971514446 /* NASLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NASLocation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBFC0A6026F5F99B645BA09133C6C1B2 /* NASLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NASLocationManager.h; path = NASLocation/Classes/NASLocationManager.h; sourceTree = "<group>"; };
+		C291386CF134C33A9AF3889F07788F29 /* NASLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NASLocation.xcconfig; sourceTree = "<group>"; };
+		C3883D7A5A1BE317232A6254E6DA84C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF84C01AC7736B4BE35C1A98ED6A28E /* Pods-NASLocation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NASLocation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D34AE377BAF48BB9EFA173B87A61228D /* NASLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NASLocation-prefix.pch"; sourceTree = "<group>"; };
+		E57451111D54DF5BB003EC4A67F81E5C /* Pods-NASLocation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NASLocation_Example-umbrella.h"; sourceTree = "<group>"; };
+		F51814C4EB502D36D2FE4B345C8A53B0 /* Pods-NASLocation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NASLocation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD530E3A936CA06678768CB25385DACB /* Pods-NASLocation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NASLocation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3532A0CDF1610AFF6AA09FDF3D823396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EBA8F3C4A8D4B346AA4C7BD875AA84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B603135F252687DD479F30008D1BD196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F1651C645D0D05391CFE6F61C0B05F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F909674928B97579187D5207A602CAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B308E9E66C68AC4BD17A6074295FE34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B8097FC95E6CC5B46865D2CE005D46 /* NASLocation */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC0A6026F5F99B645BA09133C6C1B2 /* NASLocationManager.h */,
+				6FE56FA3EF38CC5B6E31A417B555C367 /* NASLocationManager.m */,
+				5FE4827C9F3CC1290344E38E3FD3AF0D /* Pod */,
+				CCD311D10B9DB2987D88EE65A36B3DA7 /* Support Files */,
+			);
+			name = NASLocation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0DD4D0B0E494A5649F0861252CAF22CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22B05772993A1FC6A898F16A9032061 /* NASLocation.framework */,
+				56D80C5080C832D646CD03C14D03D753 /* Pods_NASLocation_Example.framework */,
+				584AE8393C50CE65FCDFF5812558B218 /* Pods_NASLocation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43BF8B61BF85789D66C1F1E2F761850A /* Pods-NASLocation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63CE146EC881F25FB6AEBC7B1796C7FC /* Info.plist */,
+				B0C11F3F4BCE639666932033ECACD46C /* Pods-NASLocation_Tests.modulemap */,
+				CFF84C01AC7736B4BE35C1A98ED6A28E /* Pods-NASLocation_Tests-acknowledgements.markdown */,
+				7CCEE4D990D9C66928188BE05C22F654 /* Pods-NASLocation_Tests-acknowledgements.plist */,
+				76338610C846C0B95FA7C4B7FCA3BA2C /* Pods-NASLocation_Tests-dummy.m */,
+				FD530E3A936CA06678768CB25385DACB /* Pods-NASLocation_Tests-frameworks.sh */,
+				052928FBDF73F0E64B96A039BEE59979 /* Pods-NASLocation_Tests-resources.sh */,
+				AB1B9864A0E778C1B0CBD5196B622B35 /* Pods-NASLocation_Tests-umbrella.h */,
+				8755641A28390DA5945F1764AA603F65 /* Pods-NASLocation_Tests.debug.xcconfig */,
+				11613D6037A1E8D692EADB9525EA9C33 /* Pods-NASLocation_Tests.release.xcconfig */,
+			);
+			name = "Pods-NASLocation_Tests";
+			path = "Target Support Files/Pods-NASLocation_Tests";
+			sourceTree = "<group>";
+		};
+		5FE4827C9F3CC1290344E38E3FD3AF0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				690708DD0DE95BAD14CFEFE6AF8C7F04 /* LICENSE */,
+				B4481AE218837DEAF6ECBC9971514446 /* NASLocation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C66C24B5443503DD030CF23EDC1FCF5 /* Pods-NASLocation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C3883D7A5A1BE317232A6254E6DA84C4 /* Info.plist */,
+				14166BDFB158883BA5E8F6A7232BC64D /* Pods-NASLocation_Example.modulemap */,
+				2D29FEE1A61D89859D9F6E065BF60526 /* Pods-NASLocation_Example-acknowledgements.markdown */,
+				4699B2331BF02264525464E43CC2E471 /* Pods-NASLocation_Example-acknowledgements.plist */,
+				A84700571E626E2FF347E30EEC878EE7 /* Pods-NASLocation_Example-dummy.m */,
+				904CFD8F8318B0085EACEC9CEA158DD3 /* Pods-NASLocation_Example-frameworks.sh */,
+				0E0AE22A294F098D362C895D419FF56D /* Pods-NASLocation_Example-resources.sh */,
+				E57451111D54DF5BB003EC4A67F81E5C /* Pods-NASLocation_Example-umbrella.h */,
+				F51814C4EB502D36D2FE4B345C8A53B0 /* Pods-NASLocation_Example.debug.xcconfig */,
+				33B2AC7480FA393D0AE0CD00EA7F8F6B /* Pods-NASLocation_Example.release.xcconfig */,
+			);
+			name = "Pods-NASLocation_Example";
+			path = "Target Support Files/Pods-NASLocation_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AEE86E20FC9D2246C13CCF94B840A321 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0DD4D0B0E494A5649F0861252CAF22CB /* Products */,
+				DBE25672E53B9DD49DC02E3EFE571589 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE86E20FC9D2246C13CCF94B840A321 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B8097FC95E6CC5B46865D2CE005D46 /* NASLocation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD311D10B9DB2987D88EE65A36B3DA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4AC3CF0DEF4CE9BA67A7AF7EA2A98 /* Info.plist */,
+				A9C431C7916EDC8AD235D675DB8AFA9C /* NASLocation.modulemap */,
+				C291386CF134C33A9AF3889F07788F29 /* NASLocation.xcconfig */,
+				35DD4A148B4C8FAB2B6EF98D2349E473 /* NASLocation-dummy.m */,
+				D34AE377BAF48BB9EFA173B87A61228D /* NASLocation-prefix.pch */,
+				8A64289A40140DB929FE72BD778CE1F9 /* NASLocation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NASLocation";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBE25672E53B9DD49DC02E3EFE571589 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C66C24B5443503DD030CF23EDC1FCF5 /* Pods-NASLocation_Example */,
+				43BF8B61BF85789D66C1F1E2F761850A /* Pods-NASLocation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10E575346C9AE2780C1A7FD7F91EE6E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFECC73863F0E9A1FDFB5647F93AC59 /* Pods-NASLocation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D48A0405A3E1DD15C8D8A7519B2BB11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DF5CDA246AA695DD9A255757D5D9DD /* NASLocation-umbrella.h in Headers */,
+				1D92C513D2E9040C75C428DF7752D66A /* NASLocationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951C642EF77AFC3E8ED634719BADBEE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655EFDD57C8C9719052823EA033F216A /* Pods-NASLocation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03830DF289CC4737C06DCA6087D1E76F /* NASLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1C08EF794364B4B7D855145991D3B9 /* Build configuration list for PBXNativeTarget "NASLocation" */;
+			buildPhases = (
+				FFAF1ECCD77360F8E8BCEFA33E554672 /* Sources */,
+				F909674928B97579187D5207A602CAF0 /* Frameworks */,
+				8D48A0405A3E1DD15C8D8A7519B2BB11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASLocation;
+			productName = NASLocation;
+			productReference = B22B05772993A1FC6A898F16A9032061 /* NASLocation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A7B4F203C72DA51DAEC2A4F5520303D /* Pods-NASLocation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A018E4E7A6FC5AF84CD8736ADB40C9D0 /* Build configuration list for PBXNativeTarget "Pods-NASLocation_Example" */;
+			buildPhases = (
+				192EF067F7299D8D9EC33325BAD21BD5 /* Sources */,
+				3532A0CDF1610AFF6AA09FDF3D823396 /* Frameworks */,
+				951C642EF77AFC3E8ED634719BADBEE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789EC2183141052A48A49A8F6A175D84 /* PBXTargetDependency */,
+			);
+			name = "Pods-NASLocation_Example";
+			productName = "Pods-NASLocation_Example";
+			productReference = 56D80C5080C832D646CD03C14D03D753 /* Pods_NASLocation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9077EB78D18CF5C7FE2D475CFA3F3CA4 /* Pods-NASLocation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE2592FB0AF1094FB461359895E9A39 /* Build configuration list for PBXNativeTarget "Pods-NASLocation_Tests" */;
+			buildPhases = (
+				42773943D358293734DFE09A44FACBA2 /* Sources */,
+				B603135F252687DD479F30008D1BD196 /* Frameworks */,
+				10E575346C9AE2780C1A7FD7F91EE6E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77263479AAD39D005BD67E64F7D344C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-NASLocation_Tests";
+			productName = "Pods-NASLocation_Tests";
+			productReference = 584AE8393C50CE65FCDFF5812558B218 /* Pods_NASLocation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0DD4D0B0E494A5649F0861252CAF22CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03830DF289CC4737C06DCA6087D1E76F /* NASLocation */,
+				7A7B4F203C72DA51DAEC2A4F5520303D /* Pods-NASLocation_Example */,
+				9077EB78D18CF5C7FE2D475CFA3F3CA4 /* Pods-NASLocation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		192EF067F7299D8D9EC33325BAD21BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34846C60482E416F1C0974EFEFDB0E2 /* Pods-NASLocation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42773943D358293734DFE09A44FACBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948F5F7DFBBD53B5C7D6FBC4956FF2C5 /* Pods-NASLocation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAF1ECCD77360F8E8BCEFA33E554672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CBE661134FAC3549FA6C6231A66AB3 /* NASLocation-dummy.m in Sources */,
+				F371409FA9B29761F9E997EEBA05D18F /* NASLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77263479AAD39D005BD67E64F7D344C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NASLocation_Example";
+			target = 7A7B4F203C72DA51DAEC2A4F5520303D /* Pods-NASLocation_Example */;
+			targetProxy = 5F9F7843C2FA43CC25188AE455C665EB /* PBXContainerItemProxy */;
+		};
+		789EC2183141052A48A49A8F6A175D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NASLocation;
+			target = 03830DF289CC4737C06DCA6087D1E76F /* NASLocation */;
+			targetProxy = 4F9ADA0CB7ABB01A29606469F6B045C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48C9E13829356A25B4C95F5308819345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C291386CF134C33A9AF3889F07788F29 /* NASLocation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NASLocation/NASLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NASLocation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NASLocation/NASLocation.modulemap";
+				PRODUCT_MODULE_NAME = NASLocation;
+				PRODUCT_NAME = NASLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FFDE39641E72322FAB9D379A961D8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C291386CF134C33A9AF3889F07788F29 /* NASLocation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NASLocation/NASLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NASLocation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NASLocation/NASLocation.modulemap";
+				PRODUCT_MODULE_NAME = NASLocation;
+				PRODUCT_NAME = NASLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68512DDC54ED696399B86C280162B8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51814C4EB502D36D2FE4B345C8A53B0 /* Pods-NASLocation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NASLocation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NASLocation_Example/Pods-NASLocation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A10975B0FB28808620AF527BD978D954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8755641A28390DA5945F1764AA603F65 /* Pods-NASLocation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NASLocation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NASLocation_Tests/Pods-NASLocation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA667CBD2960B3F9BD351742992D0DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B2AC7480FA393D0AE0CD00EA7F8F6B /* Pods-NASLocation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NASLocation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NASLocation_Example/Pods-NASLocation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F20B57BC4A376F0A3ED47736262BBAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11613D6037A1E8D692EADB9525EA9C33 /* Pods-NASLocation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NASLocation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NASLocation_Tests/Pods-NASLocation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE2592FB0AF1094FB461359895E9A39 /* Build configuration list for PBXNativeTarget "Pods-NASLocation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10975B0FB28808620AF527BD978D954 /* Debug */,
+				F20B57BC4A376F0A3ED47736262BBAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1C08EF794364B4B7D855145991D3B9 /* Build configuration list for PBXNativeTarget "NASLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C9E13829356A25B4C95F5308819345 /* Debug */,
+				4FFDE39641E72322FAB9D379A961D8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A018E4E7A6FC5AF84CD8736ADB40C9D0 /* Build configuration list for PBXNativeTarget "Pods-NASLocation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68512DDC54ED696399B86C280162B8A3 /* Debug */,
+				CA667CBD2960B3F9BD351742992D0DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
